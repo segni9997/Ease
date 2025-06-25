@@ -1,11 +1,11 @@
 import React from 'react'
 
-const page = () => {
+const meeting = ({params}:{params:{id:string}}) => {
   return (
     <div>
-      Meeting
+      Meeting Id is : {params.id}
     </div>
   )
 }
 
-export default page
+export default meeting
