@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ease",
   description: "Vedio Chat in Ease",
+  icons:"/icons/EaseLogo.svg"
 };
 
 export default function RootLayout({
